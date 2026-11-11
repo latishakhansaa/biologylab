@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cell World — Biology Lab</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+<div class="topbar">CHAPTER 02 — CELL WORLD</div>
+<nav class="navbar">
+  <a class="logo" href="index.html">BIOLOGY<span>LAB.</span></a>
+  <div class="nav-links">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./materi.html">Materials</a>
+    <a href="./study-corner.html">Study Corner</a>
+    <a href="./quiz.html">Quiz</a>
+    <a href="./science-library.html">Science Library</a>
+    <a href="organel.html">Next Chapter</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <span class="eyebrow">THE TINY WORLD INSIDE US</span>
+    <h1>WELCOME TO CELL WORLD.</h1>
+    <p>Semua makhluk hidup tersusun atas satu atau lebih sel.</p>
+  </div>
+</header>
+
+<main class="container content">
+  <h2>01. Apa Itu Sel?</h2>
+  <p>
+    Sel adalah unit struktural dan fungsional terkecil dari makhluk hidup.
+    Artinya, sel merupakan bagian dasar penyusun tubuh dan tempat berbagai
+    proses kehidupan berlangsung.
+  </p>
+
+  <div class="highlight">
+    <h3>THINK OF IT THIS WAY!</h3>
+    <p>
+      Bayangkan tubuh seperti sebuah bangunan. Sel adalah batu bata
+      kecil yang menjadi salah satu penyusun bangunan tersebut.
+    </p>
+  </div>
+
+  <h2>02. Teori Sel</h2>
+  <ol>
+    <li>Semua makhluk hidup tersusun atas satu atau lebih sel.</li>
+    <li>Sel merupakan unit dasar struktur dan fungsi kehidupan.</li>
+    <li>Sel baru berasal dari sel yang telah ada sebelumnya.</li>
+  </ol>
+
+  <h2>03. Bagaimana Bentuk Sel?</h2>
+  <p>
+    Sel memiliki bentuk dan ukuran yang beragam. Bentuk sel biasanya
+    berkaitan dengan fungsi yang dijalankannya. Contohnya, sel saraf
+    memiliki bentuk memanjang untuk membantu menghantarkan impuls.
+  </p>
+
+  <div class="fact-box">
+    <h3>DID YOU KNOW? 🔬</h3>
+    <p>
+      Sebagian besar sel tidak dapat dilihat langsung dengan mata,
+      sehingga diperlukan mikroskop untuk mengamatinya.
+    </p>
+  </div>
+
+  <h2>04. Dua Kelompok Besar Sel</h2>
+  <div class="card-grid">
+    <article class="card pink">
+      <h3>Prokariotik</h3>
+      <p>Tidak memiliki inti sel sejati yang dibungkus membran. Contoh: bakteri.</p>
+    </article>
+    <article class="card blue">
+      <h3>Eukariotik</h3>
+      <p>Memiliki inti sel yang dibungkus membran. Contoh: sel hewan dan tumbuhan.</p>
+    </article>
+  </div>
+
+  <!-- INTERACTIVE CELL EXPLORER -->
+<section class="section">
+  <div class="container">
+
+    <span class="eyebrow">✳ INTERACTIVE LEARNING</span>
+    <h2>INTERACTIVE CELL EXPLORER.</h2>
+
+    <p>
+      Pilih salah satu bagian sel untuk mengenal struktur
+      dan fungsinya lebih dekat!
+    </p>
+
+    <div class="card-grid" id="cellExplorer">
+
+      <button class="card pink cell-button" data-cell="membrane">
+        <div class="card-icon">🫧</div>
+        <h3>Cell Membrane</h3>
+        <p>Membran sel</p>
+      </button>
+
+      <button class="card yellow cell-button" data-cell="nucleus">
+        <div class="card-icon">🧠</div>
+        <h3>Nucleus</h3>
+        <p>Inti sel</p>
+      </button>
+
+      <button class="card blue cell-button" data-cell="cytoplasm">
+        <div class="card-icon">💧</div>
+        <h3>Cytoplasm</h3>
+        <p>Sitoplasma</p>
+      </button>
+
+      <button class="card green cell-button" data-cell="mitochondria">
+        <div class="card-icon">⚡</div>
+        <h3>Mitochondria</h3>
+        <p>Mitokondria</p>
+      </button>
+
+      <button class="card orange cell-button" data-cell="ribosome">
+        <div class="card-icon">🔬</div>
+        <h3>Ribosome</h3>
+        <p>Ribosom</p>
+      </button>
+
+      <button class="card purple cell-button" data-cell="golgi">
+        <div class="card-icon">📦</div>
+        <h3>Golgi Apparatus</h3>
+        <p>Badan Golgi</p>
+      </button>
+
+    </div>
+
+    <div class="highlight" id="cellInfo" aria-live="polite">
+      <h3>LET'S EXPLORE! 🔬</h3>
+      <p>
+        Klik salah satu kartu di atas untuk melihat
+        penjelasan bagian sel.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- DISCOVERY: CELL HISTORY -->
+<section class="section">
+  <div class="container">
+
+    <span class="eyebrow">✳ HISTORY OF SCIENCE</span>
+    <h2>WHO DISCOVERED THE CELL?</h2>
+
+    <p>
+      Yuk, kenalan dengan ilmuwan yang berperan dalam
+      perkembangan ilmu pengetahuan tentang sel!
+    </p>
+
+    <div class="card-grid">
+
+      <article class="card pink">
+        <h3>Robert Hooke</h3>
+        <p><strong>1665</strong></p>
+        <p>
+          Mengamati irisan gabus menggunakan mikroskop
+          dan memperkenalkan istilah "cell".
+        </p>
+      </article>
+
+      <article class="card yellow">
+        <h3>Antonie van Leeuwenhoek</h3>
+        <p><strong>1674</strong></p>
+        <p>
+          Mengamati organisme hidup mikroskopis,
+          termasuk mikroorganisme bersel satu.
+        </p>
+      </article>
+
+      <article class="card blue">
+        <h3>Matthias Schleiden</h3>
+        <p><strong>1838</strong></p>
+        <p>
+          Menyimpulkan bahwa tumbuhan tersusun atas sel.
+        </p>
+      </article>
+
+      <article class="card green">
+        <h3>Theodor Schwann</h3>
+        <p><strong>1839</strong></p>
+        <p>
+          Menyimpulkan bahwa hewan tersusun atas sel.
+        </p>
+      </article>
+
+      <article class="card orange">
+        <h3>Rudolf Virchow</h3>
+        <p><strong>1855</strong></p>
+        <p>
+          Menegaskan bahwa sel berasal dari sel
+          yang telah ada sebelumnya.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  <a href="organel.html" class="btn">NEXT: CELL ORGANELLES →</a>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <h2>BIOLOGY LAB.</h2>
+    <p>Created by <strong>Khansa Latisha</strong></p>
+  </div>
+</footer>
+</body>
+</html>
+
+

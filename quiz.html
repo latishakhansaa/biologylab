@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Zone — Biology Lab</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+<div class="topbar">LET'S TEST YOUR KNOWLEDGE!</div>
+<nav class="navbar">
+  <a class="logo" href="index.html">BIOLOGY<span>LAB.</span></a>
+  <div class="nav-links">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./materi.html">Materials</a>
+    <a href="./study-corner.html">Study Corner</a>
+    <a href="./quiz.html">Quiz</a>
+    <a href="./science-library.html">Science Library</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <span class="eyebrow">QUIZ ZONE ✦</span>
+    <h1>HOW MUCH DO YOU KNOW?</h1>
+    <p>Pilih jawaban yang menurutmu benar, lalu buka pembahasannya.</p>
+  </div>
+</header>
+
+<main class="container content">
+  <div class="highlight">
+    <h3>HOW TO PLAY</h3>
+    <p>Pilih satu jawaban pada setiap soal. Setelah selesai, klik "Show explanation" untuk memeriksa jawaban.</p>
+    <p class="small-note">Catatan: kuis ini tidak menghitung skor otomatis karena dibuat tanpa JavaScript.</p>
+  </div>
+
+  <form>
+    <div class="quiz-question">
+      <h3>01. Apa unit struktural dan fungsional dasar kehidupan?</h3>
+      <label><input type="radio" name="q1"> Organ</label>
+      <label><input type="radio" name="q1"> Jaringan</label>
+      <label><input type="radio" name="q1"> Sel</label>
+      <label><input type="radio" name="q1"> Sistem organ</label>
+      <details class="answer">
+        <summary>Show explanation</summary>
+        <p>Jawaban: Sel. Sel merupakan unit dasar struktur dan fungsi kehidupan.</p>
+      </details>
+    </div>
+
+    <div class="quiz-question">
+      <h3>02. Organel yang berperan penting dalam menghasilkan ATP adalah...</h3>
+      <label><input type="radio" name="q2"> Ribosom</label>
+      <label><input type="radio" name="q2"> Mitokondria</label>
+      <label><input type="radio" name="q2"> Nukleus</label>
+      <label><input type="radio" name="q2"> Lisosom</label>
+      <details class="answer">
+        <summary>Show explanation</summary>
+        <p>Jawaban: Mitokondria. Organel ini menjadi tempat utama respirasi sel yang menghasilkan ATP.</p>
+      </details>
+    </div>
+
+    <div class="quiz-question">
+      <h3>03. Organel yang mengandung klorofil untuk fotosintesis adalah...</h3>
+      <label><input type="radio" name="q3"> Kloroplas</label>
+      <label><input type="radio" name="q3"> Mitokondria</label>
+      <label><input type="radio" name="q3"> Nukleus</label>
+      <label><input type="radio" name="q3"> Ribosom</label>
+      <details class="answer">
+        <summary>Show explanation</summary>
+        <p>Jawaban: Kloroplas. Klorofil di dalamnya menyerap energi cahaya untuk fotosintesis.</p>
+      </details>
+    </div>
+
+    <div class="quiz-question">
+      <h3>04. Pembuluh darah yang membawa darah keluar dari jantung disebut...</h3>
+      <label><input type="radio" name="q4"> Vena</label>
+      <label><input type="radio" name="q4"> Kapiler</label>
+      <label><input type="radio" name="q4"> Arteri</label>
+      <label><input type="radio" name="q4"> Venula</label>
+      <details class="answer">
+        <summary>Show explanation</summary>
+        <p>Jawaban: Arteri. Arteri membawa darah menjauhi jantung.</p>
+      </details>
+    </div>
+
+    <div class="quiz-question">
+      <h3>05. Bagian darah yang berperan dalam pertahanan tubuh adalah...</h3>
+      <label><input type="radio" name="q5"> Plasma</label>
+      <label><input type="radio" name="q5"> Sel darah putih</label>
+      <label><input type="radio" name="q5"> Sel darah merah</label>
+      <label><input type="radio" name="q5"> Trombosit</label>
+      <details class="answer">
+        <summary>Show explanation</summary>
+        <p>Jawaban: Sel darah putih. Sel ini berperan dalam sistem pertahanan tubuh.</p>
+      </details>
+    </div>
+  </form>
+
+  <div class="fact-box">
+    <h3>KEEP LEARNING!</h3>
+    <p>Kalau ada jawaban yang belum tepat, buka kembali materi dan coba lagi.</p>
+    <a href="materi.html" class="btn">REVIEW MATERIALS →</a>
+  </div>
+</main>
+
+<div id="quizContainer"></div>
+
+<script src="./js/quiz.js" defer></script>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <h2>BIOLOGY LAB.</h2>
+    <p>Created by <strong>Khansa Latisha</strong></p>
+  </div>
+</footer>
+</body>
+</html>
